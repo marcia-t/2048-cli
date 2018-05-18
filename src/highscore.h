@@ -2,6 +2,7 @@
 #define HIGHSCORE_H
 
 #include "engine.h"
+#define _(String) gettext(String)
 
 void highscore_reset(void);
 long highscore_load(struct gamestate *g);

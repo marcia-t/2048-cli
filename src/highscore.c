@@ -6,6 +6,7 @@
 #include <sys/types.h>
 #include "engine.h"
 
+
 const char *hs_dir_name  = "2048";
 const char *hs_file_name = "highscore";
 
@@ -53,7 +54,7 @@ void highscore_reset(void)
     const size_t resp_length = 16;
     char resp[resp_length];
 
-    printf("Are you sure you want to reset your scores? Y(es) or N(o)\n");
+    printf(_("Are you sure you want to reset your scores? Y(es) or N(o)\n"));
 
     while (1) {
         /* fgets is used to avoid queuing that may occur with getchar */
@@ -71,7 +72,7 @@ void highscore_reset(void)
         else if (!strncmp(resp, "no", resp_length) || !strncmp(resp, "n",  resp_length))
             return;
 
-        printf("Please enter Yes or No\n");
+        printf(_("Please enter Yes or No\n"));
     }
 
 reset_scores:;
