@@ -17,7 +17,7 @@ void draw_then_sleep(struct gfx_state *s, struct gamestate *g)
 int main(int argc, char **argv)
 {
     setlocale(LC_ALL,"");
-    bindtextdomain("2048","/usr/share/locale");
+    bindtextdomain("2048","po");
     textdomain("2048");
     struct gamestate *g = gamestate_init(argc, argv);
     if (!g) {
