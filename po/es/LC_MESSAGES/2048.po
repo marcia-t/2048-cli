@@ -28,7 +28,7 @@ msgstr "%ld\n"
 #: src/highscore.c:57
 #, c-format
 msgid "Are you sure you want to reset your scores? Y(es) or N(o)\n"
-msgstr "Estás seguro de reiniciar los puntajes? Sí (Y) o No (N)\n"
+msgstr "¿Estás seguro de reiniciar los puntajes? Sí (Y) o No (N)\n"
 
 
 #: src/highscore.c:75
