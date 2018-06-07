@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <ncurses.h>
 #include <unistd.h>
+#include<locale.h>
 #include "gfx.h"
 #include "merge.h"
 

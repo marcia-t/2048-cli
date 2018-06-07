@@ -14,6 +14,7 @@
 #define DEFAULT_ANIMATE_FLAG true
 #define DEFAULT_AI_FLAG false
 #define DEFAULT_INTERACTIVE_FLAG true
+#define _(String) gettext(String)
 
 struct gameoptions {
     int grid_height;
