@@ -49,4 +49,4 @@ msgstr "Puntaje: %ld (+%ld)\n"
 #: src/options.c:11
 #, c-format
 msgid "usage: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n"
-msgstr "uso: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n"
+msgstr "uso: 2048 [-cCaAiIrh] [-s TAMAÑO] [-b VELOCIDAD]\n"
