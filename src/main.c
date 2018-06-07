@@ -6,7 +6,6 @@
 #include "gfx.h"
 #define _(String) gettext(String)
 
-
 void draw_then_sleep(struct gfx_state *s, struct gamestate *g)
 {
     gfx_draw(s, g);

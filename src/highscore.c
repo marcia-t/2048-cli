@@ -6,7 +6,6 @@
 #include <sys/types.h>
 #include "engine.h"
 
-
 const char *hs_dir_name  = "2048";
 const char *hs_file_name = "highscore";
 
